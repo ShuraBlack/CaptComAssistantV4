@@ -1,0 +1,202 @@
+{
+  "interactionSets": [
+    {
+      "worker": "de.shurablack.model.worker.Badge",
+      "interactions": [
+        {
+          "identifier": "badge",
+          "globalCooldown": 30,
+          "userCooldown": -1,
+          "type": "GLOBAL_SLASH",
+          "channelRestriction": []
+        },
+        {
+          "identifier": "badge",
+          "globalCooldown": -1,
+          "userCooldown": -1,
+          "type": "GUILD_SLASH",
+          "channelRestriction": []
+        }
+      ]
+    },
+    {
+      "worker": "de.shurablack.model.worker.Clear",
+      "interactions": [
+        {
+          "identifier": "clear",
+          "globalCooldown": -1,
+          "userCooldown": -1,
+          "type": "PUBLIC_CHANNEL",
+          "channelRestriction": []
+        }
+      ]
+    },
+    {
+      "worker": "de.shurablack.model.worker.CoinFlip",
+      "interactions": [
+        {
+          "identifier": "coinflip",
+          "globalCooldown": -1,
+          "userCooldown": 30,
+          "type": "GLOBAL_SLASH",
+          "channelRestriction": []
+        },
+        {
+          "identifier": "coinflip",
+          "globalCooldown": -1,
+          "userCooldown": 10,
+          "type": "GUILD_SLASH",
+          "channelRestriction": [
+            "request"
+          ]
+        }
+      ]
+    },
+    {
+      "worker": "de.shurablack.model.worker.Copy",
+      "interactions": [
+        {
+          "identifier": "copy",
+          "globalCooldown": -1,
+          "userCooldown": -1,
+          "type": "PUBLIC_CHANNEL",
+          "channelRestriction": []
+        }
+      ]
+    },
+    {
+      "worker": "de.shurablack.model.worker.Dice",
+      "interactions": [
+        {
+          "identifier": "dice",
+          "globalCooldown": -1,
+          "userCooldown": 30,
+          "type": "GLOBAL_SLASH",
+          "channelRestriction": []
+        },
+        {
+          "identifier": "dice",
+          "globalCooldown": -1,
+          "userCooldown": 10,
+          "type": "GUILD_SLASH",
+          "channelRestriction": [
+            "request"
+          ]
+        }
+      ]
+    },
+    {
+      "worker": "de.shurablack.model.worker.Subscription",
+      "interactions": [
+        {
+          "identifier": "sub",
+          "globalCooldown": -1,
+          "userCooldown": -1,
+          "type": "BUTTON",
+          "channelRestriction": [
+            "subscription"
+          ]
+        }
+      ]
+    },
+    {
+      "worker": "de.shurablack.model.worker.Ruler",
+      "interactions": [
+        {
+          "identifier": "ruler",
+          "globalCooldown": -1,
+          "userCooldown": -1,
+          "type": "BUTTON",
+          "channelRestriction": [
+            "roles"
+          ]
+        }
+      ]
+    },
+    {
+      "worker": "de.shurablack.model.worker.Player",
+      "interactions": [
+        {
+          "identifier": "player",
+          "globalCooldown": -1,
+          "userCooldown": -1,
+          "type": "GUILD_SLASH",
+          "channelRestriction": [
+            "music"
+          ]
+        },
+        {
+          "identifier": "player",
+          "globalCooldown": -1,
+          "userCooldown": -1,
+          "type": "PUBLIC_CHANNEL",
+          "channelRestriction": [
+            "music"
+          ]
+        },
+        {
+          "identifier": "player",
+          "globalCooldown": -1,
+          "userCooldown": -1,
+          "type": "PUBLIC_REACTION",
+          "channelRestriction": [
+            "music"
+          ]
+        },
+        {
+          "identifier": "player",
+          "globalCooldown": -1,
+          "userCooldown": -1,
+          "type": "BUTTON",
+          "channelRestriction": [
+            "music"
+          ]
+        },
+        {
+          "identifier": "player",
+          "globalCooldown": -1,
+          "userCooldown": -1,
+          "type": "MODAL",
+          "channelRestriction": [
+            "music"
+          ]
+        },
+        {
+          "identifier": "player",
+          "globalCooldown": -1,
+          "userCooldown": -1,
+          "type": "STRING_SELECTION",
+          "channelRestriction": [
+            "music"
+          ]
+        }
+      ]
+    },
+    {
+      "worker": "de.shurablack.model.worker.Messages",
+      "interactions": [
+        {
+          "identifier": "msg",
+          "globalCooldown": -1,
+          "userCooldown": -1,
+          "type": "PUBLIC_CHANNEL",
+          "channelRestriction": []
+        }
+      ]
+    },
+    {
+      "worker": "de.shurablack.model.worker.Info",
+      "interactions": [
+        {
+          "identifier": "info",
+          "globalCooldown": -1,
+          "userCooldown": 30,
+          "type": "GUILD_SLASH",
+          "channelRestriction": [
+            "request"
+          ]
+        }
+      ]
+    }
+  ]
+}
